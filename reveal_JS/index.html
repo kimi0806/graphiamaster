@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/league.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-transition-speed="fast">
+					<a href="#/grand-finale">Go to the last slide</a>
+				</section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide1.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide10.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide11.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide12.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide13.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide14.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide15.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide16.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide17.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide18.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide19.png"></section>
+				<section data-transition-speed="fast"><img class="r-stretch r-frame" src="../storage/pictures/ism/Slide20.png"></section>
+				<section data-transition-speed="fast" id="grand-finale">
+					<h2>The end</h2>
+					<a href="#/0">Back to the first</a>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				// width: 700,
+    //         	height: 100,
+				center: false,
+				overview: true,
+				controls: true,
+				slideNumber: true,
+				controlsTutorial: true,
+				slideNumber: 'c/t',
+				controlsLayout: 'bottom-left',
+				backgroundTransition: 'zoom',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+
+			Reveal.configure({ 
+				autoSlide: 50000,
+				mouseWheel: true,
+			});
+		</script>
+	</body>
+</html>
